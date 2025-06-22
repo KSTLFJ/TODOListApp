@@ -1,5 +1,0 @@
-I: Touch grass
-C: go outside
-C: play football
-C: play basketball
-C: run
