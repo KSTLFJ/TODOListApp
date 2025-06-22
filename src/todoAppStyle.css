@@ -1,0 +1,74 @@
+/* panes */
+#mainPane {
+    -fx-background-color: #040330;
+}
+
+#scrollPane .viewport {
+    -fx-background-color: #040330;
+    -fx-background-radius: 20px;
+    -fx-border-radius: 20px;
+}
+
+#scrollPane, .scroll-bar {
+    -fx-background-color: transparent;
+}
+
+/* text styles */
+.label,
+.text,
+.text-field,
+.button,
+.check-box {
+    -fx-font-family: "Chalkboard";
+    -fx-text-fill: red;
+}
+
+* {
+    -fx-fill: white;
+}
+
+/* text field */
+.text-field{
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-color: white;
+    -fx-font-size: 16px;
+    -fx-background-color: #0f0238;
+    -fx-text-fill: white;
+}
+
+/* buttons */
+#addButton {
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-background-color: BLUEVIOLET;
+}
+
+.button{
+    -fx-background-color: transparent;
+    -fx-padding: -8, 0, 0, 0;
+}
+
+/* checkBox */
+.check-box .box{
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+}
+
+.check-box:selected .box{
+    -fx-background-color: CHARTREUSE;
+}
+
+.check-box .box:hover {
+    -fx-background-color: green;
+}
+
+/* scroll bar */
+.scroll-bar, .thumb, .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .increment.button, .decrement-button {
+}
